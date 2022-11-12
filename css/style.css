@@ -26,9 +26,9 @@ input::placeholder{
 }
 .main__body .btn {
     border: 2px solid red;
-    border-radius: 43%;
+    border-radius: 10px;
     padding: 5px;
-    width: 35%;
+    width: 100px;
     margin: 5px;
     background-color: rgb(18, 152, 90);
     color: white;

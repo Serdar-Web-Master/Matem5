@@ -10,13 +10,19 @@ btn.addEventListener("click",goTo)
 
 const answerBlock86 = document.querySelector('.answer__block86');
 const answerBlock87 = document.querySelector('.answer__block87');
+const answerBlocks = document.querySelectorAll('.answer__block');
+console.log(answerBlocks);
 
 function goTo() {
+   answerBlocks.forEach(el =>{
+      el.classList.add("none")
+   })
+
    if (inputNumber.value == 86) {
       answerBlock86.classList.remove("none");
       console.log(inputNumber.value);
    }
-   if (inputNumber.value == 87) {
+   else if (inputNumber.value == 87) {
       answerBlock87.classList.remove("none");
       console.log(inputNumber.value);
    }
