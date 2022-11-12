@@ -8,11 +8,21 @@ console.log(inputNumber);
 
 btn.addEventListener("click",goTo)
 
-const answerBlock = document.querySelector('.answer__block');
+const answerBlock86 = document.querySelector('.answer__block86');
+const answerBlock87 = document.querySelector('.answer__block87');
 
 function goTo() {
-   answerBlock.classList.remove("none");
-console.log(inputNumber.value);
+   if (inputNumber.value == 86) {
+      answerBlock86.classList.remove("none");
+      console.log(inputNumber.value);
+   }
+   if (inputNumber.value == 87) {
+      answerBlock87.classList.remove("none");
+      console.log(inputNumber.value);
+   }
+   else {
+      console.log("Такой задачи нет");
+   }
 }
 
 
