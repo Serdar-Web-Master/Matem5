@@ -29,6 +29,7 @@ function goTo() {
    else {
       console.log("Такой задачи нет");
    }
+   inputNumber.value = "";
 }
 
 

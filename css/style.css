@@ -58,5 +58,11 @@ input::placeholder{
 .red {
     color: red;
 }
+.gif__block {
+    margin-top: 30px;
+}
+.gif__item {
+    width: 95%;
+}
 .footer {
 }
