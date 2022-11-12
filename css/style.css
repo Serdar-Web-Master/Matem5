@@ -26,9 +26,12 @@ input::placeholder{
 }
 .main__body .btn {
     border: 2px solid red;
+    border-radius: 43%;
     padding: 5px;
-    width: 20%;
+    width: 35%;
     margin: 5px;
+    background-color: rgb(18, 152, 90);
+    color: white;
 }
 .answer__block {
     padding: 20px;
@@ -39,6 +42,9 @@ input::placeholder{
 }
 .answer__block h1 {
     margin: 5px;
+}
+.none {
+    display: none;
 }
 .footer {
 }
